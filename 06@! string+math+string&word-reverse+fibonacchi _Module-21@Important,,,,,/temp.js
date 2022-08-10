@@ -1,6 +1,5 @@
-let first = 5
-let second = 7
-console.log(first, second)
+
+// console.log(first, second)
 // wrong approach;;
 // first = second;
 // second = first;
@@ -14,6 +13,7 @@ console.log(first, second)
 // console.log(first, second)
 
 // approach-2(destructuring)
-
+let first = 5
+let second = 7
 [first, second]=[second, first]
 console.log(first, second)
